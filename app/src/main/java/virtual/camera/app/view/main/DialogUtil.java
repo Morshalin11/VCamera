@@ -8,7 +8,7 @@ import android.net.Uri;
 import androidx.appcompat.app.AlertDialog;
 
 import virtual.camera.app.R;
-import virtual.camera.app.util.ToastUtils;
+import virtual.camera.app.util.ToastUtils;,
 import virtual.camera.camera.MultiPreferences;
 
 public class DialogUtil {
