@@ -252,7 +252,7 @@ public class RockerView extends SurfaceView implements Runnable, SurfaceHolder.C
                 } else {
                     //设置摇杆位置，使其处于手指触摸方向的 摇杆活动范围边缘
                     mRockerPosition = MathUtil.getPointByCutLength(mAreaPosition,
-                            new Point((int) event.getX(), (int) event.getY()), mAreaRadius);
+                            new  Point((int) event.getX(), (int) event.getY()), mAreaRadius);
                 }
                 if (mListener != null) {
                     float radian = MathUtil.getRadian(mAreaPosition, new Point((int) event.getX(), (int) event.getY()));
